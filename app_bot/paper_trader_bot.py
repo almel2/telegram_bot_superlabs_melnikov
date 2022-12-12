@@ -46,7 +46,7 @@ def get_graphic(message, par_valuts):
     candles = choice([i for i in range(1, 1000, 100)])
     ma = choice([i for i in range(10, 100, 10)])
     tp = choice([i for i in range(10, 50, 10)])
-    sl = choice([i for i in range(10, 50, 10)])
+    sl = choice([i for i in range(1, 10)])
 
     data = {
         'pair': pair,
